@@ -1,6 +1,7 @@
 # class player and name
 class Player
   attr_reader :name
+  attr_accessor :lives
 
   #number of lives def
   def initialize(name)
